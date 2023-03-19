@@ -25,8 +25,8 @@ public class compressor {
         fis.close();
     }
 
-    public static void main(String[] args) throws IOException {
-        File path = new File("C:\\Users\\BasitCJ\\OneDrive\\Desktop\\JavaProjects\\CompressorZIP\\Testfile");
-        method(path);
-    }
+//    public static void main(String[] args) throws IOException {
+//        File path = new File("C:\\Users\\BasitCJ\\OneDrive\\Desktop\\JavaProjects\\CompressorZIP\\Testfile");
+//        method(path);
+//    }
 }

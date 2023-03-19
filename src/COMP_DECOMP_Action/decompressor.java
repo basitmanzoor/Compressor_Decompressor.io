@@ -27,8 +27,8 @@ public class decompressor {
 
     }
 
-    public static void main(String[] args) throws IOException {
-        File path = new File("C:\\Users\\BasitCJ\\OneDrive\\Desktop\\JavaProjects\\CompressorZIP\\CompressedFile.gz");
-        method(path);
-    }
+//    public static void main(String[] args) throws IOException {
+//        File path = new File("C:\\Users\\BasitCJ\\OneDrive\\Desktop\\JavaProjects\\CompressorZIP\\CompressedFile.gz");
+//        method(path);
+//    }
 }

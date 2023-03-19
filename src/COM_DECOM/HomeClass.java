@@ -14,16 +14,19 @@ public class HomeClass extends JFrame implements ActionListener {
     JButton decompressButton;
 
     HomeClass(){
+
         this.setTitle("Compressor and Decompressor");
-        this.setSize(800,700);
-//        this.setLocation(400,100);
+        this.setSize(800,400);
+        this.setLocation(400,200);
+
+        this.setLayout(null);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         compressButton = new JButton("SELECT TO COMPRESS");
-        compressButton.setBounds(100,100,200,50);
+        compressButton.setBounds(80,100,200,50);
         compressButton.addActionListener(this);
 
         decompressButton = new JButton("SELECT TO DECOMPRESS");
-        decompressButton.setBounds(200,100,200,50);
+        decompressButton.setBounds(500,100,200,50);
         decompressButton.addActionListener(this);
 
 
@@ -31,6 +34,7 @@ public class HomeClass extends JFrame implements ActionListener {
         this.add(decompressButton);
         this.getContentPane().setBackground(Color.CYAN);
         this.setVisible(true);
+
     }
 
     @Override
